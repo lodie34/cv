@@ -1,0 +1,21 @@
+/*Je met mon footer police 20px, avec une border en 3px en noir, je centre le texte, je met le contour a 50px, de couleurs orange et avec une marge au dessus de 20px*/
+#bord {
+font-size : 20px;
+font-family : Century Gothic, sans-serif;
+border : 3px solid #ff4000;
+text-align : center;
+border-radius : 50px;
+color : black;
+margin-top : 20px;
+}
+
+/*Je regle la taille de mes flêche que je met en display block et margin auto pour le centrer puis je met un padding au dessus pour ne pas que il colle au texte*/
+.fleche {
+height :50px;
+width : 50px;
+display : block;
+margin-left: auto;
+margin-right : auto;
+padding-top : 60px;
+}
+

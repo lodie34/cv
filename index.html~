@@ -1,0 +1,90 @@
+<!DOCTYPE Html>
+<html lang ="fr"><!-- langue en français de ma page referencement en français -->
+	<head>
+		<title> CV G Elodie Dev </title> <!-- Mon titre --> 
+		<meta charset = "utf-8"> <!-- Pour selectionner les caractéres spéciaux --> 
+		<link rel ="stylesheet" href ="css/stylesheet.css"> <!-- lien vers les "futur".css --> 
+		<link rel ="stylesheet" href ="css/chepo.css">
+		<link rel ="stylesheet" media ="screen and (min-width : 480px) and (max-width : 1024px)" href="css/phone.css"/>
+		<link rel ="stylesheet" media ="screen and (min-width: 1024px) and (max-width: 1366px)" href="css/tablette.css"/>
+		<link rel ="stylesheet" media ="screen and (min-width: 1280px) and (max-width: 1680px)" href="css/pc.css"/>
+		</head>
+
+	<body>		
+		<div id="container">
+			<header>
+				<a><img src="img/logoblanc.png"class="logo"/></a>
+				<h1 id="entete">CV Développeur Web Mobile</h1> <!-- Titre en h1 pour la forme -->
+			</header>
+				<nav class="navi"> 
+				<ul id="nav"><!-- Création et identification de la barre de navigation --> 
+					<li class="elo"><a href="#Qui">Qui suis-je ?</a></li><!-- Ce qui sera mon lien vers ma div "qui suis-je" en h2 egalement pour le mettre en avant avec les reglages par default --> 
+   					<li class="elo"><a href="#Experiences">Expériences</a></li><!-- Ce qui sera mon lien vers ma div "Experiences" en h2 egalement pour le mettre en avant avec les reglages par default --> 
+   					<li class="elo"><a href="#Formations">Formations</a></li><!-- Ce qui sera mon lien vers ma div "Formations" en h2 egalement pour le mettre en avant avec les reglages par default --> 
+   					<li class="elo"><a href="#Loisirs">Loisirs</a></li><!-- Ce qui sera mon lien vers ma div "Loisirs" en h2 egalement pour le mettre en avant avec les reglages par default --> 
+				</ul> 	
+				</nav>
+			<section>
+				<section id="Qui">
+					<header class="title"><h3>Qui Suis-Je ?</h3></header>
+					<article>
+						<section>
+							<!--<header>-----</header>-->
+							<article class="justife">Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C., le rendant vieux de 2000 ans. Un professeur du Hampden-Sydney College, en Virginie, s'est intéressé à un des mots latins les plus obscurs, consectetur, extrait d'un passage du Lorem Ipsum, et en étudiant tous les usages de ce mot dans la littérature classique, découvrit la source incontestable du Lorem Ipsum. Il provient en fait des sections 1.10.32 et 1.10.33 du "De Finibus Bonorum et Malorum" (Des Suprêmes Biens et des Suprêmes Maux) de Cicéron. Cet ouvrage, très populaire pendant la Renaissance, est un traité sur la théorie de l'éthique. Les premières lignes du Lorem Ipsum, "Lorem ipsum dolor sit amet...", proviennent de la section 1.10.32.</article>
+							<!--<footer>----</footer>-->
+						</section>
+					</article>
+					<footer><a class="logo"><img src="img/lol.png"/></a></footer>
+				</section>
+
+				<section id="Experiences">
+					<header class="title"><h3>Experiences</h3></header>
+					<article>
+						<section>
+							<!--<header>-----</header>-->
+							<article class="haha">Le Lorem Ipsum est simplement du faux texte</article>
+							<article class="haha">Le Logrem Ipsum est simplement du faux texte</article>
+							<article class="haha">Le Lorem Ipsum est simplement du faux texte</article>
+							<article class="haha">Le Lorem Ipsum est simplement du faux texte</article>
+							<article class="haha">Le Lorem Ipsum ggest simplement du faux texte</article>
+							<article class="haha">Le Lorem Ipsum est simplement du faux texte</article>
+							<!--<footer>----</footer>-->
+						</section>
+					</article>
+					<footer><a href="#entete"><img src="img/lol.png"class="fleche"/></a></footer>
+				</section>
+
+				<section id="Formations">
+					<header class="title"><h3>Formations</h3><header>
+					<article>
+						<section>
+							<!--<header>-----</header>-->
+							<article class="hihi">Le Lorem Ipsum est simplement du faux texte</article>
+							<article class="hihi">Le Lorem Ipsum est simplement du faux texte</article>
+							<article class="hihi">Le Lorem Ipsum est simplement du faux texte</article>
+							<article class="hihi">Le Lorem Ipsum est simplement du faux texte</article>
+							<article class="hihi">Le Logrem Ipsum est simplement du faux texte</article>
+							<article class="hihi">Le Lorem Ipsum est simplement du faux texte</article>
+							<article class="hihi">Le Lorem Ipsum est simplgement du faux texte</article>
+							<!--<footer>----</footer>-->
+						</section>
+					</article>
+					<footer><a href="#entete"><img src="img/lol.png" class="fleche"/></a></footer>
+				</section>
+
+				<section id="Loisirs">
+					<header class="title"><h3>Loisirs</h3></header>
+					<article>
+						<section>
+							<!--<header>-----</header>-->
+							<article class="justif">Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C., le rendant vieux de 2000 ans. Un professeur du Hampden-Sydney College, en Virginie, s'est intéressé à un des mots latins les plus obscurs, consectetur, extrait d'un passage du Lorem Ipsum, et en étudiant tous les usages de ce mot dans la littérature classique, découvrit la source incontestable du Lorem Ipsum. Il provient en fait des sections 1.10.32 et 1.10.33 du "De Finibus Bonorum et Malorum" (Des Suprêmes Biens et des Suprêmes Maux) de Cicéron. Cet ouvrage, très populaire pendant la Renaissance, est un traité sur la théorie de l'éthique. Les premières lignes du Lorem Ipsum, "Lorem ipsum dolor sit amet...", proviennent de la section 1.10.32.</article>
+							<!--<footer>----</footer>-->
+						</section>
+					</article>
+					<footer><a href="#entete"><img src="img/lol.png" class="fleche"/></a></footer>
+				</section>
+			<footer id="bord">
+				<article> Gil Elodie - 28 Ans - Lunel - Permis - elodiegweb@gmail.com - 06.06.06.06.06 -</article></footer>
+		</div>
+	</body>
+</html>

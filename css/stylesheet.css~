@@ -1,0 +1,66 @@
+* {
+margin : 0px;
+padding :0px; 
+}
+
+/*Sur le titre cv je met le texte a gauche avec une marge de 10 et une police */
+/*mise en place d'un background image d'internet que je met dans toute la page*/
+body {
+background-image : url(https://s-media-cache-ak0.pinimg.com/564x/b8/d2/54/b8d2549a746bc152f6529d6b3cd37eaa.jpg);
+background-size : cover;
+}
+
+/*sur ma class title je met une taille de font a 30 j'aligne mon texte au centre avec une marge de 20 dessus 20 dessous avec un contour de mes lettre en noir une*/ 
+.title {
+font-size : 30px;
+text-align: center;
+margin-top: 20px;
+text-shadow: #ffffff 1px 1px, #ffffff -1px 1px, #ffffff -1px -1px, #ffffff 1px -1px;
+margin-bottom : 50px;
+font-family : Century Gothic, sans-serif;
+}
+
+.titrecv {
+text-align : left;
+margin : 10px;
+font-family : Century Gothic, sans-serif;
+}
+
+h1 {
+font-size : 40px;
+font-style : small-caps;
+text-shadow: #ffffff 1px 1px, #ffffff -1px 1px, #ffffff -1px -1px, #ffffff 1px -1px;
+margin-bottom : 50px;
+}
+
+/*sur ma nav je met le display flex en space around avec une marge de 50 en dessous et 30 au dessus*/
+#nav {
+display : flex;
+justify-content : space-around;
+margin-bottom : 50px;
+margin-top : 30px;
+}
+
+/*sur ma class elo je met une marge de 10 j'enleve les puces ma taille de police en 20 avec une bordure de 50 en 150 de large et hauteur auto j'aligne mon texte au centre avec une marge de dessus de 20 et un type de police*/
+.elo {
+margin : 10px;
+list-style-type : none;
+font-size : 20px;
+border : 3px solid #ffffff;
+border-radius: 50px;
+width : 150px;
+height : auto;
+text-align : center;
+margin-bottom : 20px;
+font-family : Century Gothic, sans-serif;
+}
+
+#entete {
+border : 3px solid #ffffff;
+text-align : center;
+border-radius : 50px;
+}
+
+#qui {
+margin-top : 20px;
+}

@@ -1,0 +1,36 @@
+/*Je met mon footer police 25px, avec une border en 3px en blanc, je centre le texte, je met le contour a 50px, de couleurs jaune et avec une marge au dessus de 30px*/
+#bord {
+font-size : 25px;
+font-family : Century Gothic, sans-serif;
+border : 3px solid white;
+text-align : center;
+border-radius : 50px;
+color : #660033;
+margin-top : 30px;
+}
+
+/*Je regle la taille de mes flêche que je met en display block et margin auto pour le centrer puis je met un padding au dessus pour ne pas que il colle au texte*/
+.fleche {
+height :50px;
+width : 50px;
+display : block;
+margin-left: auto;
+margin-right : auto;
+padding-top : 60px;
+}
+
+footer article a:link {
+/*Je change la couleur du lien*/
+color : #660033;
+}
+
+footer article a:visited {
+/*Je change la couleur du lien visiter*/
+color : #660033;
+}
+
+footer article a:hover {
+color:#660033;
+}
+
+

@@ -1,0 +1,31 @@
+/*pour les ecrans de moins de 480px*/
+@media only screen and (max-width: 480px) {
+/*Reduction de la taille du titre et de la marge pour le centrer grace a la hauteur*/
+header h1 {
+header h1 {
+	font-size : 18px;
+	height : 700px;
+	margin-top : 90%;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
+
+/*taille de la barre de nav*/
+.navi {
+	height : 1150px;
+}
+/*padding*/
+.elodie {
+	padding-bottom : 150px;
+}
+/*padding*/
+.eloo {
+	padding-bottom : 20px;
+}
+/*padding*/
+.ello {
+	padding-top : 150px;
+}
+}
+

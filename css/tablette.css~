@@ -1,0 +1,3 @@
+@import url(tablette/head.css);
+@import url(tablette/body.css);
+@import url(tablette/foot.css);

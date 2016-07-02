@@ -1,0 +1,30 @@
+/*Je change la couleur du lien*/
+a:link {
+color : white;
+}
+
+/*Je change la couleur du lien visiter*/
+a:visited {
+color : white;
+}
+
+/*Je change la couleur du lien au survolage*/
+a:hover {
+color: #660033;
+}
+
+/*Je change la taille de ma flêche pour que elle soit plus visible*/
+.fleche {
+height :25px;
+width : 25px;
+}
+
+/*Je met mon logo en bloc et le centre de taille de 30px sur 30px*/
+.logo {
+display : block;
+margin-left: auto;
+margin-right : auto;
+margin-bottom : 20px;
+height : 300px;
+width : 300px;
+}

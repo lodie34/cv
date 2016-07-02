@@ -1,0 +1,3 @@
+@import url(pc/head.css);
+@import url(pc/body.css);
+@import url(pc/foot.css);

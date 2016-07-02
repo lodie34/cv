@@ -1,0 +1,15 @@
+.entete {
+text-align : center;
+border : 10px solid red;
+}
+
+.elo {
+display:inline;
+border : 10px solid red;
+}
+
+body {
+background-image:url(https://s-media-cache-ak0.pinimg.com/564x/fa/d2/7c/fad27cae1def6912f2d5d7e3c5a0064c.jpg);
+background-repeat: no-repeat;
+
+}

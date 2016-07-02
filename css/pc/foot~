@@ -1,0 +1,12 @@
+/*Je fait un encadrement de mon footer et je centre le texte*/
+footer{
+border : 2px solid black ;
+background-color : #262626;
+text-align : center ;
+color : #cce6ff;
+padding : 10px 0px 0px 0px;
+font-family: fantasy;
+font-size : 16px;
+font-variant: small-caps ;
+text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+}

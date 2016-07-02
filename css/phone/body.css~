@@ -1,0 +1,65 @@
+/*Je change de couleur de background */
+body {
+background-image : url(../img/fond1.jpg);
+background-size : cover ;
+}
+
+/*Je met mon titre en 50 px et je le centre */
+.title {
+font-size : 50px;
+text-align : center;
+}
+
+/*sur ma nav je met le display flex en space around avec une marge de 50 en dessous et 30 au dessus*/
+#nav {
+display : flex;
+justify-content : space-around;
+margin-bottom : 50px;
+margin-top : 30px;
+}
+
+/*J'enleve les decos des liens*/
+a {
+text-decoration: none;
+}
+
+/*sur ma class elo je met une marge de 10 j'enleve les puces ma taille de police en 20 avec une bordure de 50 en 150 de large et hauteur auto j'aligne mon texte au centre avec une marge de dessus de 20 et un type de police*/
+.elo {
+margin : 0px;
+list-style-type : none;
+font-size : 50px;
+border : 3px solid #ffffff;
+border-radius: 20px;
+}
+
+/*Border en 3px d'epaisseur et blanc j'aligne le texte au centre je lui met une taile de police a 60px et en jaune */
+#entete {
+border : 3px solid #ffffff;
+border-radius : 20px;
+text-align : center;
+font-size : 60px;
+color : #660033;
+}
+
+/*texte de marge de 20px*/
+#qui {
+margin-top : 20px;
+}
+
+/*texte de Couleur violet*/
+.hihi {
+color : #660033;
+}
+
+/*Je met une taille de police de 20px et je le centre*/
+.justife, .justif, .hihi, .haha {
+font-size : 40px;
+text-align : center;
+color : #660033;
+}
+
+/*je justify le texte*/
+.justif, .justife {
+text-align : justify;
+}
+

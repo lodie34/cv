@@ -1,0 +1,22 @@
+/*Je change la couleur du lien*/
+a:link {
+color : black;
+}
+
+/*Je change la couleur du lien visiter*/
+a:visited {
+color : black;
+}
+
+/*Je change la couleur du lien au survolage*/
+a:hover {
+color: #ff4000;
+}
+
+/*Je change la taille de ma flêche pour que elle soit plus visible*/
+.fleche {
+height :30px;
+width : 30px;
+text-align : center;
+}
+

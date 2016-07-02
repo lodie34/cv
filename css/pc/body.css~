@@ -1,0 +1,71 @@
+/*Je change de couleur de background */
+body {
+background-image: url(../../img/fond1.jpg); /* Le chemin d'acces a l'image n'était pas correct il manquait ../ pour acceder au dossier de l'image. */
+background-size : cover ;
+}
+
+/*Je met mon titre en 30 px et je le centre */
+.title {
+font-size : 30px;
+text-align : center;
+}
+
+/*sur ma nav je met le display flex en space around avec une marge de 50 en dessous et 30 au dessus*/
+#nav {
+display : flex;
+justify-content : space-around;
+margin-bottom : 50px;
+margin-top : 30px;
+}
+
+/*J'enleve les decos des liens*/
+a {
+text-decoration: none;
+}
+
+/*sur ma class elo je met une taille de police en 20 avec une bordure de 150 de large et hauteur auto avec une marge de dessous de 20*/
+.elo {
+font-size : 25px;
+width : 150px;
+height : auto;
+margin-bottom : 20px;
+text-align : center;
+list-style-type : none;
+border : 3px solid white;
+border-radius : 20px;
+}
+
+/*Couleur du titre en jaune*/
+.title {
+color : #660033;
+}
+
+/*Border en 3px d'epaisseur et noir*/
+#entete {
+border : 3px solid #ffffff;
+color : #ff0066;
+text-align : center;
+border-radius : 20px;
+font-size : 50px;
+}
+
+/*texte de Couleur blanche*/
+.hihi {
+color : white;
+}
+
+/*Je met une taille de 17px je centre le texte */
+.hihi, .haha {
+font-size : 17px;
+text-align : center;
+color : black;
+}
+
+/*je met une police a la taille de 17px*/
+.justif, .justife {
+font-size : 17px;
+text-align : center;
+color : #ff0066;
+}
+
+
